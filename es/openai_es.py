@@ -25,8 +25,8 @@ class EvolutionStrategy:
         self,
         optimizer: Optimizer,
         sigma: float = 0.1,
-        sigma_decay: float = 0.001,
-        lr_decay: float = 0.001,
+        sigma_decay: float = 0.0,
+        lr_decay: float = 0.0,
         antithetic: bool = False,
         fitness_shaping: bool = True,
     ) -> None:
